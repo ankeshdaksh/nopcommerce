@@ -30,7 +30,7 @@ public class BrowserFactory {
         driver.quit();
     }
 
-
+//****+++++
     public static void takeScreenShot(Scenario scenario) {
         try{
             File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

@@ -332,7 +332,7 @@ public class HomePage extends BasePage {
         confirms.until(ExpectedConditions.visibilityOf(confirmButton));
         confirmButton.click();
 
-        //Fluent Wait not working*******
+        //Fluent Wait not working==******
 //        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 //                .withTimeout(30, TimeUnit.SECONDS)
 //                .pollingEvery(5, TimeUnit.SECONDS)
